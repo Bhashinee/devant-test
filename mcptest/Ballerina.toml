@@ -7,6 +7,7 @@ title = "MCPTest"
 
 [build-options]
 sticky = true
+observabilityIncluded = true
 
 [[dependency]]
 org = "ballerina"

@@ -1,5 +1,7 @@
 
 import ballerina/mcp;
+import ballerina/observe as _;
+import ballerinax/metrics.logs as _;
 
 listener mcp:Listener mcpListener = new (9090);
 
